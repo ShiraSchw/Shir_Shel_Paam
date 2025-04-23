@@ -42,7 +42,7 @@ lyrics = song_options[selected_song]["lyrics"]
 
 # תמונה של השיר
 if os.path.exists(song_image):
-    st.image(song_image, caption="עץ אגס מלבלב", use_column_width=True)
+    st.image(song_image, caption="עץ אגס מלבלב", use_container_width=True)
 
 # ניגון השיר
 if os.path.exists(song_path):
